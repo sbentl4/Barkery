@@ -29,6 +29,9 @@ width:100%;
   /* padding-left:30%; */
   margin-bottom: 5em;
 }
+#holo {
+  color: purple;
+}
 .menu h2{
   color: blue;
 }
