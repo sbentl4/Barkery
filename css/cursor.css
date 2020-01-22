@@ -21,6 +21,6 @@
 }
 html{
   /* animation: skel 0.25s infinite; */
-  cursor: url('/imgs/corg.png'), auto;
+  cursor: url('../imgs/corg.png'), auto;
 
 }
