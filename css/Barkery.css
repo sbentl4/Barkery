@@ -49,8 +49,10 @@ width:100%;
 .desc #dog{
   width:20%;
   height:auto;
-  float:right;
-  display:block;
+  /* float:right; */
+  /* display:block; */
+  position: absolute;
+  right:0px;
   /* float:left; */
 }
 .desc img{
