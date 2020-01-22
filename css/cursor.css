@@ -1,0 +1,26 @@
+@keyframes skel{
+  0%{
+    cursor: url("assets/skel/s0.png"), auto;
+  }
+  20%{
+    cursor: url("assets/skel/s1.png"), auto;
+  }
+  40%{
+    cursor: url("assets/skel/s2.png"), auto;
+  }
+  60%{
+    cursor: url("assets/skel/s3.png"), auto;
+  }
+  80%{
+    cursor: url("assets/skel/s4.png"), auto;
+
+  }
+  100%{
+    cursor: url("assets/skel/s0.png"), auto;
+  }
+}
+html{
+  /* animation: skel 0.25s infinite; */
+  cursor: url('/imgs/corg.png'), auto;
+
+}
