@@ -40,6 +40,18 @@ width:100%;
 }
 .desc{
   color: brown;
+
+}
+.desc p{
+/* width: 80%; */
+  /* display:block; */
+}
+.desc #dog{
+  width:20%;
+  height:auto;
+  float:right;
+  display:block;
+  /* float:left; */
 }
 .desc img{
   height:100px;
