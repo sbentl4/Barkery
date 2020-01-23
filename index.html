@@ -5,6 +5,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
 
+    <!-- MidiJs -->
+    <script type='text/javascript' src='//www.midijs.net/lib/midi.js'></script>
+
     <!-- Bootstrap 4 -->
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -21,15 +24,24 @@
   <h1 class="header">Welcome to the Barkery!!</h1>
   <section class="desc">
     <p>Hello!! Welcome to the barkery! Here we have our official site, blah blah bark bark bark bark</p>
-    <img src="imgs/comm.png" alt="Art by @Benbencoo on twitter!" title="Art by @Benbencoo on twitter!" id="dog">
+    <div id="dog">
+      <h1>
+                <img src="imgs/paw.gif" alt="">
+        Me!
+                <img src="imgs/paw.gif" alt="">
+      </h1>
+      <p>I'm Pal! I'm the corgi who runs the place</p>
+      <img src="imgs/comm.png" alt="Art by @Benbencoo on twitter!" title="Art by @Benbencoo on twitter!">
+      <a href="#" onClick="MIDIjs.play('midi/cakelvl3.mid');">Play MIDI</a>
+      <a href="#" onClick="MIDIjs.stop();">Stop MIDI Playback</a>
+    </div>
     <img src="imgs/choco.gif" alt="">
   </section>
   <!-- <img src="imgs/walkingpawprintblack.gif" alt=""> -->
-
 <section class="menu">
   <h2>
     <img src="imgs/cake1.gif" alt="">
-    Menu
+    Pastry Menu
     <img src="imgs/cake1.gif" alt="">
   </h2>
 
@@ -43,13 +55,43 @@
     <li id="holo">Cosmic Sugar-Cookies</li>
   </ul>
 </section>
+
 <img src="imgs/walkingpawprintblack.gif" alt="">
+<section class="menu">
+<h2>
+<img src="imgs/donut.gif" alt="">
+Drinks Menu
+<img src="imgs/donut.gif" alt="">
+</h2>
+<ul>
+  <h3>Coffees</h3>
+  <li>Capicino</li>
+  <li>Mocha Slorp</li>
+
+  <h3>Teas</h3>
+  <li>Iced Green Latte</li>
+  <li>Bobas</li>
+</ul>
+
+</section>
 <section class="links">
   <div>
     <p>Here's some links to my friends!!</p>
     <a href="#" id="croc">  <img src="imgs/3croc.gif" alt="">CrocZone (My other page) <img src="imgs/3croc.gif" alt=""></a>
     <a href="#" id="usha">  <img src="imgs/sun.gif" alt="">Usha<img src="imgs/sun.gif" alt=""></a>
 
+  </div>
+</section>
+
+<section class="blinkies">
+  <div>
+    <p></p>
+    <img src="imgs/Rainbowblinkie.gif" alt="">
+    <img src="imgs/webpaw.gif" alt="">
+    <img src="imgs/swampwitch.gif" alt="">
+    <img src="imgs/shortyblinkie.gif" alt="">
+    <img src="imgs/pemcorgani.gif" alt="">
+    <img src="imgs/ssc.gif" alt="">
   </div>
 </section>
 
