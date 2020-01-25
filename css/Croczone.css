@@ -1,0 +1,101 @@
+.links{
+/* padding-left:30%; */
+width:100%;
+}
+.links section{
+}
+.links div{
+  color: brown;
+  border-style: double;
+  border-color: black;
+  width:40%;
+  margin-left:30%;
+  /* margin-bottom:20px; */
+  padding-bottom:20px;
+  background-color:wheat;
+}
+.links a{
+  color: red;
+  padding-bottom:10%;
+}
+#header{
+  width: 700px;
+}
+.links #croc{
+  color: green;
+}
+.links #usha{
+  color:orange;
+}
+.links img{
+  width: 50px;
+  height: auto;
+}
+.blinkies {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.menu{
+  /* padding-left:30%; */
+  margin-bottom: 5em;
+}
+#holo {
+  color: purple;
+}
+.menu h2{
+  color: blue;
+}
+.menu h3{
+  color:brown;
+  list-style: none;
+}
+.menu li{
+  color: brown;
+}
+.header {
+  /* padding-left:30%; */
+}
+.desc{
+  color: brown;
+
+}
+.desc p{
+/* width: 80%; */
+  /* display:block; */
+}
+.desc #dog{
+  width:20%;
+  height:auto;
+  /* float:right; */
+  /* display:block; */
+  position: absolute;
+  right:0px;
+  /* float:left; */
+  border:double;
+}
+#dog img{
+  width:100%;
+  height:auto;
+}
+#dog h1 img:nth-child(1){
+  height:60px;
+  width:60px;
+  position:absolute;
+  top: 0px;
+  left:0px;
+}
+#dog h1 img:nth-child(2){
+  height:60px;
+  width:60px;
+  position:absolute;
+  top: 0px;
+  right:0px;
+}
+.desc img{
+  height:100px;
+  width: auto;
+}
+body{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+}
