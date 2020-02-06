@@ -1,0 +1,117 @@
+<html>
+
+<head>
+  <script type="text/javascript">
+    var sdkInstance = "appInsightsSDK";
+    window[sdkInstance] = "appInsights";
+    var aiName = window[sdkInstance],
+      aisdk = window[aiName] || function(e) {
+        function n(e) {
+          t[e] = function() {
+            var n = arguments;
+            t.queue.push(function() {
+              t[e].apply(t, n)
+            })
+          }
+        }
+        var t = {
+          config: e
+        };
+        t.initialize = !0;
+        var i = document,
+          a = window;
+        setTimeout(function() {
+          var n = i.createElement("script");
+          n.src = e.url || "https://az416426.vo.msecnd.net/scripts/b/ai.2.min.js", i.getElementsByTagName("script")[0].parentNode.appendChild(n)
+        });
+        try {
+          t.cookie = i.cookie
+        } catch (e) {}
+        t.queue = [], t.version = 2;
+        for (var r = ["Event", "PageView", "Exception", "Trace", "DependencyData", "Metric", "PageViewPerformance"]; r.length;) n("track" + r.pop());
+        n("startTrackPage"), n("stopTrackPage");
+        var s = "Track" + r[0];
+        if (n("start" + s), n("stop" + s), n("setAuthenticatedUserContext"), n("clearAuthenticatedUserContext"), n("flush"), !(!0 === e.disableExceptionTracking || e.extensionConfig && e.extensionConfig.ApplicationInsightsAnalytics && !0 === e.extensionConfig
+            .ApplicationInsightsAnalytics.disableExceptionTracking)) {
+          n("_" + (r = "onerror"));
+          var o = a[r];
+          a[r] = function(e, n, i, a, s) {
+            var c = o && o(e, n, i, a, s);
+            return !0 !== c && t["_" + r]({
+              message: e,
+              url: n,
+              lineNumber: i,
+              columnNumber: a,
+              error: s
+            }), c
+          }, e.autoExceptionInstrumented = !0
+        }
+        return t
+      }({
+        instrumentationKey: "dd77822d-9abf-4120-b766-370b1c479c84",
+        disableExceptionTracking: true,
+        disableAjaxTracking: true,
+        maxAjaxCallsPerView: 1
+      });
+    window[aiName] = aisdk, aisdk.queue && 0 === aisdk.queue.length && aisdk.trackPageView({});
+  </script>
+  <script type="text/javascript">
+    var appInsightsUserName = 'palencorg';
+    var userIDApp = appInsightsUserName.replace(/[,;=| ]+/g, "_");
+    appInsights.setAuthenticatedUserContext(userIDApp);
+  </script>
+
+  <style type="text/css">
+    A {
+      COLOR: #000099;
+      FONT-FAMILY: verdana, arial, helvetica;
+      FONT-SIZE: 9pt;
+      TEXT-DECORATION: none
+    }
+
+    TD,
+    P,
+    body {
+      FONT-FAMILY: verdana, arial, helvetica;
+      FONT-SIZE: 9pt;
+    }
+
+    A:hover {
+      COLOR: #990000;
+    }
+
+    .smallfont,
+    .sf {
+      FONT-SIZE: 7.5pt;
+    }
+  </style>
+  <script src="https://az416426.vo.msecnd.net/scripts/b/ai.2.min.js"></script>
+  <style id="47163c83-d86d-45c7-8218-9996335b291c">
+    .randomEvent {
+      position: sticky !important;
+      top: 0px;
+    }
+
+    .pushdown {
+      position: sticky !important;
+      top: 0px;
+    }
+  </style>
+</head>
+
+<body class="vsc-initialized"><br>
+  <table width="400" cellspacing="0" cellpadding="3" border="0" align="center">
+    <tbody>
+      <tr>
+        <td colspan="2" bgcolor="#ffffcc" align="center"><strong>Something Has Happened!</strong></td>
+      </tr>
+      <tr>
+        <td width="50"><img src="http://images.neopets.com/neoboards/avatars/plushietonu.gif" alt="" width="50" height="50" border="0"></td>
+        <td>You are now eligible to use '<strong>Plushie!</strong>' as an avatar on the <a href="http://www.neopets.com/neoboards/"><strong>NeoBoards</strong></a>!</td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+</body>
+
+</html>

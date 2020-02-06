@@ -1,0 +1,180 @@
+<html>
+
+<head>
+  <script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+  <script type="text/javascript">
+    window.addEventListener('DOMContentLoaded', function() {
+      var v = archive_analytics.values;
+      v.service = 'wb';
+      v.server_name = 'wwwb-app101.us.archive.org';
+      v.server_ms = 366;
+      archive_analytics.send_pageview({});
+    });
+  </script>
+  <script type="text/javascript" src="/_static/js/ait-client-rewrite.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    WB_wombat_Init("https://web.archive.org/web/", "20090728134051", "hk.geocities.com");
+  </script>
+  <script type="text/javascript" src="/_static/js/wbhack.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    __wbhack.init('https://web.archive.org/web');
+  </script>
+  <link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css">
+  <link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css">
+  <!-- End Wayback Rewrite JS Include -->
+
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta name="GENERATOR" content="Mozilla/4.51 [en] (WinNT; I) [Netscape]">
+  <title>cats</title>
+  <style>table{filter:Alpha(Opacity=45, FinishOpacity=50, Style=2)}</style>
+</head>
+
+<body class="vsc-initialized" background="/web/20090728134051im_/http://hk.geocities.com/ktlovekk/blackbacks5.gif">
+  <!-- BEGIN WAYBACK TOOLBAR INSERT -->
+  <div class="">
+    <p>dog</p>
+  </div>
+
+  <script language="JavaScript1.2">
+    <!-- Begin
+    var no = 30; // 設定圖片的數量
+    var speed = 1; // 數字愈小圖片移動愈快
+    var snow = new Array(); //設定圖片路徑
+    snow[0] = "imgs/16.gif"
+
+
+    var ns4up = (document.layers) ? 1 : 0; // browser sniffer
+    var ie4up = (document.all) ? 1 : 0;
+    var ns6up = (document.getElementById && !document.all) ? 1 : 0;
+    var dx, xp, yp; // coordinate and position variables
+    var am, stx, sty; // amplitude and step variables
+    var i, doc_width = 800,
+      doc_height = 1800;
+
+    if (ns4up || ns6up) {
+      doc_width = self.innerWidth;
+      doc_height = self.innerHeight;
+    } else if (ie4up) {
+      doc_width = document.body.clientWidth;
+      doc_height = document.body.clientHeight;
+    }
+
+    dx = new Array();
+    xp = new Array();
+    yp = new Array();
+    am = new Array();
+    stx = new Array();
+    sty = new Array();
+    j = 0;
+
+    for (i = 0; i < no; ++i) {
+      dx[i] = 0; // set coordinate variables
+      xp[i] = Math.random() * (doc_width - 50); // set position variables
+      yp[i] = Math.random() * doc_height;
+      am[i] = Math.random() * 20; // set amplitude variables
+      stx[i] = 0.02 + Math.random() / 10; // set step variables
+      sty[i] = 0.7 + Math.random(); // set step variables
+      if (ns4up) { // set layers
+        if (i == 0) {
+          document.write("<layer name=\"dot" + i + "\" left=\"15\" top=\"15\" visibility=\"show\"><img src=\"" + snow[j] + "\" border=\"0\"></layer>");
+        } else {
+          document.write("<layer name=\"dot" + i + "\" left=\"15\" top=\"15\" visibility=\"show\"><img src=\"" + snow[j] + "\" border=\"0\"></layer>");
+        }
+      } else if (ie4up || ns6up) {
+        if (i == 0) {
+          document.write("<div id=\"dot" + i + "\" style=\"POSITION: absolute; Z-INDEX: " + i + "VISIBILITY: visible; TOP: 15px; LEFT: 15px; width:1;\"><img src=\"" + snow[j] + "\" border=\"0\"></div>");
+        } else {
+          document.write("<div id=\"dot" + i + "\" style=\"POSITION: absolute; Z-INDEX: " + i + "VISIBILITY: visible; TOP: 15px; LEFT: 15px; width:1;\"><img src=\"" + snow[j] + "\" border=\"0\"></div>");
+        }
+      }
+      if (j == (snow.length - 1)) {
+        j = 0;
+      } else {
+        j += 1;
+      }
+    }
+
+    function snowNS() { // Netscape main animation function
+      for (i = 0; i < no; ++i) { // iterate for every dot
+        yp[i] -= sty[i];
+        if (yp[i] < -50) {
+          xp[i] = Math.random() * (doc_width - am[i] - 30);
+          yp[i] = doc_height;
+          stx[i] = 0.02 + Math.random() / 10;
+          sty[i] = 0.7 + Math.random();
+          doc_width = self.innerWidth;
+          doc_height = self.innerHeight;
+        }
+        dx[i] += stx[i];
+        document.layers["dot" + i].top = yp[i];
+        document.layers["dot" + i].left = xp[i] +
+          am[i] * Math.sin(dx[i]);
+      }
+      setTimeout("snowNS()", speed);
+    }
+
+    function snowIE_NS6() { // IE main animation function
+      for (i = 0; i < no; ++i) { // iterate for every dot
+        yp[i] -= sty[i];
+        if (yp[i] < -50) {
+          xp[i] = Math.random() * (doc_width - am[i] - 30);
+          yp[i] = doc_height;
+          stx[i] = 0.02 + Math.random() / 10;
+          sty[i] = 0.7 + Math.random();
+          doc_width = ns6up ? window.innerWidth - 5 : document.body.clientWidth;
+          doc_height = ns6up ? window.innerHeight - 5 : document.body.clientHeight;
+        }
+        dx[i] += stx[i];
+        if (ie4up) {
+          document.all["dot" + i].style.pixelTop = yp[i];
+          document.all["dot" + i].style.pixelLeft = xp[i] + am[i] * Math.sin(dx[i]);
+        } else if (ns6up) {
+          document.getElementById("dot" + i).style.top = yp[i];
+          document.getElementById("dot" + i).style.left = xp[i] + am[i] * Math.sin(dx[i]);
+        }
+      }
+      setTimeout("snowIE_NS6()", speed);
+    }
+
+    if (ns4up) {
+      snowNS();
+    } else if (ie4up || ns6up) {
+      snowIE_NS6();
+    }
+    // End -->
+  </script>
+  </p>
+
+
+
+  <script language="JavaScript" src="https://web.archive.org/web/20090728134051js_/http://us.i1.yimg.com/us.yimg.com/i/mc/mc.js"></script>
+  <script language="JavaScript" src="https://web.archive.org/web/20090728134051js_/http://us.js2.yimg.com/us.js.yimg.com/lib/smb/js/hosting/cp/js_source/geov2_001.js"></script>
+  <script language="javascript">
+    geovisit();
+  </script><img style="display:none" src="http://visit.geocities.com/visit.gif?&amp;r=&amp;b=Netscape%205.0%20%28Windows%29&amp;s=1536x864&amp;o=Win32&amp;c=24&amp;j=false&amp;v=1.2" border="0">
+  <noscript><img src="https://web.archive.org/web/20090728134051im_/http://visit.geocities.yahoo.com/visit.gif?hk1248788451" alt="setstats" border="0" width="1" height="1"></noscript>
+  <img src="https://web.archive.org/web/20090728134051im_/http://geo.yahoo.com/serv?s=382076079&amp;t=1248788451&amp;f=hk-w5" alt="1" width="1" height="1">
+  <!--
+     FILE ARCHIVED ON 13:40:51 Jul 28, 2009 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 03:01:22 Jan 26, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+  <!--
+playback timings (ms):
+  RedisCDXSource: 181.395
+  LoadShardBlock: 58.398 (3)
+  CDXLines.iter: 12.911 (3)
+  load_resource: 98.6
+  exclusion.robots: 0.286
+  PetaboxLoader3.datanode: 68.881 (4)
+  exclusion.robots.policy: 0.267
+  captures_list: 256.316
+  esindex: 0.032
+  PetaboxLoader3.resolve: 57.157
+-->
+</body>
+
+</html>

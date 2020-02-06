@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  </head>
+  <body>
+    <style media="screen">
+    .underlay {
+ position: absolute;
+ z-index: 0;
+}
+
+.mapclick {
+ position:absolute;
+ z-index:10;
+ top: 0;
+ left: 0;
+ height: 100%;
+ width: 100%;
+}
+
+.item {
+ position: static;
+}
+    </style>
+    <div id="mapcontainer">
+   <div class="underlay">
+      <!-- I want this to appear under my static items. -->
+      <img src="imgs/comm.png" alt="">
+   </div>
+   <div class="mapclick">
+       <div class="item">blah</div>
+       <div class="item">yada</div>
+       <div class="item">foo</div>
+       <div class="item">bar</div>
+   </div>
+</div>
+<div class="below">
+<p>dog</p>
+</div>
+  </body>
+
+</html>

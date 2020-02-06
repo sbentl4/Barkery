@@ -1,0 +1,150 @@
+
+#header, #footer, .sidebar, .contentHeader, .contentModuleHeaderAlt, #ban, .content table table img, table table table table {display: none;} table, td, #main {background: none;border: none;} #main {margin-top: 0px;margin-left: 0px;} .content table .content table img {display: inline;} .content p {margin-top: -30px;} #wel p, #cc p, #news p {margin-top: 0px;}
+body {
+	background: url("http://fc05.deviantart.net/fs71/f/2013/241/7/a/neonlights2_by_allarice-d6k9xni.png") white;
+}
+b {
+text-transform: uppercase;
+color: #8B1C12;
+}
+
+i {
+color: #1E90FF;
+}
+
+textarea {
+background-color: #486A84;
+color: #303030;
+font: 8px verdana;
+}
+#nav {
+top: 0px;
+left: 150px;
+width: 1068px;
+height: 85px;
+padding: 0px;
+}
+#nav a {
+color: #8E889A;
+font: 12px arial;
+text-transform: uppercase;
+display: inline-block;
+width: 103px;
+height: 56px;
+padding-top: 24px;
+text-align: center;
+margin-left: 9px;
+}
+#nav a:hover {
+background-image: url('http://i39.tinypic.com/2crvwom.png');
+color: #F0F0F0;
+}
+a#j, a#b {
+left: 249px;
+top: 297px;
+width: 50px;
+height: 32px;
+display: block;
+opacity: 0.0;
+text-align: center;
+padding-top: 18px;
+background-image: url('http://i43.tinypic.com/219135t.png');
+}
+a#b {
+left: 1064px;
+height: 30px;
+padding-top: 20px;
+background-image: url('http://i43.tinypic.com/5e76td.png');
+}
+a#j:hover, a#b:hover {
+opacity: 1.0;
+color: #FFFFFF;
+font: 10px arial;
+text-transform: uppercase;
+}
+#ch, #nh, #wh {
+display: block;
+background: transparent;
+overflow: hidden;
+padding: 0px;
+}
+#wh {
+top: 437px;
+left: 328px;
+height: 102px;
+width: 102px;
+}
+#wh:hover {
+height: 336px;
+width: 336px;
+top: 272px;
+left: 289px;
+}
+#ch {
+left: 840px;
+top: 216px;
+height: 61px;
+width: 61px;
+}
+#ch:hover {
+height: 256px;
+width: 256px;
+top: 189px;
+left: 743px;
+}
+#nh {
+left: 995px;
+top: 92px;
+height: 41px;
+width: 41px;
+}
+#nh:hover {
+left: 905px;
+top: 85px;
+height: 240px;
+width: 240px;
+}
+#wel, #cc, #news {
+font: 10px verdana;
+line-height: 15px;
+display:block;
+opacity: 0.0;
+text-align: left;
+top: 0px;
+left: 0px;
+height: 100%;
+width: 100%;
+background-image: url('http://i44.tinypic.com/2itk6yd.png');
+color: #343A55;
+}
+#cc {
+background-image: url('http://i40.tinypic.com/rbgrab.png');
+}
+#news {
+background-image:
+url('http://i43.tinypic.com/351vj2c.png');
+}
+#wel:hover, #cc:hover, #news:hover {
+transition: ease-in-out 1s;
+opacity:1.0;
+}
+#wpad, #cpad, #npad {
+height: 197px;
+width: 197px;
+margin-left: 69px;
+margin-top: 69px;
+padding: 5px;
+overflow: auto;
+}
+#cpad {
+margin-left: 50px;
+margin-top: 55px;
+width: 150px;
+height: 143px;
+}
+#npad {
+margin-left: 45px;
+margin-top: 46px;
+width: 127px;
+height: 137px;
+}
